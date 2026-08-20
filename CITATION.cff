@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Psoriasis & Hidradenitis Suppurativa Single-Cell Dataset"
+message: "If you use this dataset or its curation pipeline, please cite this repository."
+type: dataset
+
+authors:
+  - family-names: "Kiyani"
+    given-names: "Tala"
+
+repository-code: "https://github.com/tala-kiyani/psoriasis-hs-single-cell-dataset"
+
+keywords:
+  - psoriasis
+  - hidradenitis suppurativa
+  - single-cell RNA-seq
+  - scRNA-seq
+  - snRNA-seq
+  - single-cell
+  - transcriptomics
+  - data curation
+
+abstract: >
+  A systematic collection and curation project for publicly available
+  single-cell and single-nucleus datasets associated with psoriasis
+  and hidradenitis suppurativa.
+
+license: CC-BY-4.0
