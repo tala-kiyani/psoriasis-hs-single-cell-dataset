@@ -1,0 +1,70 @@
+# Search terminology for psoriasis and hidradenitis suppurativa
+# This file contains the controlled vocabulary used during dataset discovery.
+
+diseases:
+
+  psoriasis:
+    primary:
+      - "psoriasis"
+
+    synonyms:
+      - "psoriatic"
+      - "psoriasis vulgaris"
+      - "plaque psoriasis"
+      - "psoriatic disease"
+      - "psoriatic skin"
+      - "psoriatic lesion"
+      - "psoriatic plaque"
+
+  hidradenitis_suppurativa:
+    primary:
+      - "hidradenitis suppurativa"
+
+    synonyms:
+      - "hidradenitis"
+      - "acne inversa"
+      - "HS"
+
+
+single_cell:
+
+  general:
+    - "single-cell"
+    - "single cell"
+
+  transcriptomics:
+    - "single-cell RNA"
+    - "single-cell RNA-seq"
+    - "single-cell RNA sequencing"
+    - "scRNA-seq"
+    - "scRNAseq"
+
+  single_nucleus:
+    - "single-nucleus"
+    - "single nucleus"
+    - "single-nucleus RNA"
+    - "single-nucleus RNA-seq"
+    - "snRNA-seq"
+    - "snRNAseq"
+
+  other_modalities:
+    - "CITE-seq"
+    - "single-cell multi-omics"
+    - "single-cell transcriptomics"
+
+
+repositories:
+
+  - "GEO"
+  - "SRA"
+  - "BioStudies"
+  - "ArrayExpress"
+  - "Single Cell Portal"
+  - "Zenodo"
+  - "Figshare"
+  - "Synapse"
+  - "dbGaP"
+  - "EGA"
+  - "ImmPort"
+  - "Single Cell Expression Atlas"
+  - "Human Cell Atlas"
