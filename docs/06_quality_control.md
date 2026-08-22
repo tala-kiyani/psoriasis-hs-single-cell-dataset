@@ -255,6 +255,8 @@ The deduplication strategy is defined in:
 
 `docs/05_deduplication.md`
 
+---
+
 # 15. Publication QC
 
 When a publication is available, the following should be checked:
@@ -269,6 +271,8 @@ When a publication is available, the following should be checked:
 
 Publication information should be used as supporting evidence rather than automatically overriding repository metadata.
 
+---
+
 # 16. Quality-Control Status
 
 Each dataset should have a QC status.
@@ -281,6 +285,8 @@ Recommended values:
 - `passed_with_warnings`
 - `failed`
 - `needs_manual_review`
+  
+---
 
 # 17. QC Flags
 
@@ -298,7 +304,10 @@ Potential QC flags include:
 - `publication_not_found`
 - `accession_not_verified`
 
+
 Multiple flags may be assigned to the same dataset.
+
+---
 
 # 18. Manual Review
 
@@ -306,41 +315,50 @@ Datasets should be manually reviewed when automated validation cannot establish 
 
 Manual review is particularly important when:
 
-Disease terminology is ambiguous
-HS is used without clarification
-Single-cell status is unclear
-Species is missing
-Multiple studies appear to share samples
-Repository metadata conflicts with publication information
-Dataset relationships are unclear
-19. QC Decision
+- Disease terminology is ambiguous
+- `HS` is used without clarification
+- Single-cell status is unclear
+- Species is missing
+- Multiple studies appear to share samples
+- Repository metadata conflicts with publication information
+- Dataset relationships are unclear
+
+---
+
+# 19. QC Decision
 
 After QC, a dataset may be assigned one of the following outcomes:
 
-passed
+```passed
 passed_with_warnings
 failed
-needs_manual_review
+needs_manual_review```
 
 A failed QC status should include an explanatory note.
 
-20. QC Audit Trail
+---
+
+# 20. QC Audit Trail
 
 QC decisions should be traceable.
 
 For each manually reviewed dataset, the project should retain:
 
-Accession
-Date reviewed
-QC status
-QC flags
-Evidence source
-Reviewer
-Notes
-21. Quality-Control Workflow
+- Accession
+- Date reviewed
+- QC status
+- QC flags
+- Evidence source
+- Reviewer
+- Notes
+
+---
+
+# 21. Quality-Control Workflow
 
 The recommended workflow is:
 
+```
 Dataset discovery
         ↓
 Metadata extraction
@@ -364,7 +382,11 @@ Duplicate check
 QC decision
         ↓
 Final inclusion
-22. QC and Inclusion Are Different
+```
+
+---
+
+# 22. QC and Inclusion Are Different
 
 Quality control and eligibility screening are related but distinct.
 
@@ -372,35 +394,39 @@ A dataset may satisfy the inclusion criteria but still require additional QC.
 
 For example:
 
+```
 Eligible dataset
         ↓
 QC reveals missing species
         ↓
 passed_with_warnings
+```
 
 This dataset should not necessarily be excluded.
 
 Similarly:
 
+```
 Candidate dataset
         ↓
 Single-cell status cannot be verified
         ↓
 needs_manual_review
+```
 
 The dataset should remain in the intermediate collection until a final decision is possible.
 
-23. Final QC Principle
+# 23. Final QC Principle
 
 The purpose of quality control is not to remove datasets unnecessarily.
 
 The goal is to ensure that every dataset in the final collection has:
 
-A traceable source
-A documented disease assignment
-A documented experimental type
-A species classification when possible
-Sufficient metadata for downstream interpretation
-A documented curation decision
+- A traceable source
+- A documented disease assignment
+- A documented experimental type
+- A species classification when possible
+- Sufficient metadata for downstream interpretation
+- A documented curation decision
 
 All unresolved issues should remain visible through QC flags and notes.
