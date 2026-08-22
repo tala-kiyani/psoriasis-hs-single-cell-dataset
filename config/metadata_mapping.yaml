@@ -1,0 +1,94 @@
+species:
+
+  human:
+    - "human"
+    - "Homo sapiens"
+    - "homo sapiens"
+    - "Human"
+
+  mouse:
+    - "mouse"
+    - "Mus musculus"
+    - "mus musculus"
+
+  rat:
+    - "rat"
+    - "Rattus norvegicus"
+    - "rattus norvegicus"
+
+
+taxonomy_id:
+
+  human: 9606
+  mouse: 10090
+  rat: 10116
+
+
+organism_group:
+
+  human:
+    - "human"
+    - "Homo sapiens"
+    - "homo sapiens"
+
+  animal:
+    - "mouse"
+    - "Mus musculus"
+    - "rat"
+    - "Rattus norvegicus"
+
+
+disease:
+
+  psoriasis:
+    - "psoriasis"
+    - "psoriatic"
+    - "psoriasis vulgaris"
+    - "plaque psoriasis"
+    - "psoriatic disease"
+    - "psoriatic skin"
+    - "psoriatic lesion"
+    - "psoriatic plaque"
+
+  hidradenitis_suppurativa:
+    - "hidradenitis suppurativa"
+    - "hidradenitis"
+    - "acne inversa"
+    - "HS"
+
+
+lesion_status:
+
+  lesional:
+    - "lesional"
+    - "lesion"
+    - "lesional skin"
+    - "lesion skin"
+
+  non_lesional:
+    - "non-lesional"
+    - "non lesional"
+    - "uninvolved"
+
+  perilesional:
+    - "perilesional"
+    - "peri-lesional"
+
+  healthy:
+    - "healthy"
+    - "normal"
+
+
+single_cell_type:
+
+  scRNA-seq:
+    - "scRNA-seq"
+    - "scRNAseq"
+    - "single-cell RNA-seq"
+    - "single-cell RNA sequencing"
+
+  snRNA-seq:
+    - "snRNA-seq"
+    - "snRNAseq"
+    - "single-nucleus RNA-seq"
+    - "single-nucleus RNA sequencing"
