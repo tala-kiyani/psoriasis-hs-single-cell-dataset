@@ -191,19 +191,19 @@ Missing optional metadata does not automatically exclude a dataset.
 
 The following fields are considered important for final inclusion:
 
-```text
-canonical_study_id
-repository
-accession
-study_title
-disease_normalized
-species
-organism_group
-single_cell
-single_cell_type
-inclusion_status
-curation_status
-```
+
+- canonical_study_id
+- repository
+- accession
+- study_title
+- disease_normalized
+- species
+- organism_group
+- single_cell
+- single_cell_type
+- inclusion_status
+- curation_status
+
 ---
 
 # 12. Data Availability QC
