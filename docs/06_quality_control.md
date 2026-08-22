@@ -253,34 +253,34 @@ Potential duplicate evidence includes:
 
 The deduplication strategy is defined in:
 
-docs/05_deduplication.md
+`docs/05_deduplication.md`
 
-15. Publication QC
+# 15. Publication QC
 
 When a publication is available, the following should be checked:
 
-PMID
-DOI
-Publication title
-Authors
-Publication year
-Data availability statement
-Repository accession
+- PMID
+- DOI
+- Publication title
+- Authors
+- Publication year
+- Data availability statement
+- Repository accession
 
 Publication information should be used as supporting evidence rather than automatically overriding repository metadata.
 
-16. Quality-Control Status
+# 16. Quality-Control Status
 
 Each dataset should have a QC status.
 
 Recommended values:
 
-not_checked
-in_progress
-passed
-passed_with_warnings
-failed
-needs_manual_review
+- `not_checke`
+- `in_progress`
+- `passed`
+- `passed_with_warnings`
+- `failed`
+- `needs_manual_review`
 17. QC Flags
 
 Potential QC flags include:
