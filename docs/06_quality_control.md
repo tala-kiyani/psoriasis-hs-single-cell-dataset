@@ -329,10 +329,12 @@ Manual review is particularly important when:
 
 After QC, a dataset may be assigned one of the following outcomes:
 
-```passed
+```
+passed
 passed_with_warnings
 failed
-needs_manual_review```
+needs_manual_review
+```
 
 A failed QC status should include an explanatory note.
 
