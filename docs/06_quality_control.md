@@ -1,6 +1,6 @@
 # Quality Control
 
-## 1. Purpose
+# 1. Purpose
 
 This document defines the quality-control procedures used to validate candidate datasets before they are included in the final curated collection.
 
@@ -203,6 +203,8 @@ single_cell
 single_cell_type
 inclusion_status
 curation_status
+```
+
 12. Data Availability QC
 
 The following should be checked:
