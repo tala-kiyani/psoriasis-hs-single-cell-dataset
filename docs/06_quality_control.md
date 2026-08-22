@@ -209,11 +209,11 @@ curation_status
 
 The following should be checked:
 
-Raw sequencing data
-Processed expression matrix
-Cell metadata
-Repository accessibility
-Controlled-access requirements
+- Raw sequencing data
+- Processed expression matrix
+- Cell metadata
+- Repository accessibility
+- Controlled-access requirements
 
 Data availability should be recorded even when data cannot be downloaded directly.
 
