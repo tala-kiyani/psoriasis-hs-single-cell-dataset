@@ -525,4 +525,3 @@ The objective is to correctly determine which repository records represent:
 * genuinely independent studies
 
 All decisions should be evidence-based, reproducible, and documented.
-پایین
