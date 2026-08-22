@@ -281,25 +281,26 @@ Recommended values:
 - `passed_with_warnings`
 - `failed`
 - `needs_manual_review`
-17. QC Flags
+
+# 17. QC Flags
 
 Potential QC flags include:
 
-missing_species
-missing_disease
-ambiguous_disease
-unclear_single_cell_status
-missing_tissue
-missing_sample_metadata
-controlled_access
-duplicate_candidate
-cross_repository_conflict
-publication_not_found
-accession_not_verified
+- `missing_species`
+- `missing_disease`
+- `ambiguous_disease`
+- `unclear_single_cell_status`
+- `missing_tissue`
+- `missing_sample_metadata`
+- `controlled_access`
+- `duplicate_candidate`
+- `cross_repository_conflict`
+- `publication_not_found`
+- `accession_not_verified`
 
 Multiple flags may be assigned to the same dataset.
 
-18. Manual Review
+# 18. Manual Review
 
 Datasets should be manually reviewed when automated validation cannot establish eligibility.
 
