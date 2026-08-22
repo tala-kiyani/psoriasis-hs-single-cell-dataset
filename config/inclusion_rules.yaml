@@ -1,0 +1,57 @@
+# Inclusion and curation rules for the project
+
+diseases:
+  - psoriasis
+  - hidradenitis_suppurativa
+
+
+single_cell_types:
+  - scRNA-seq
+  - snRNA-seq
+  - CITE-seq
+  - single-cell_multiome
+  - other
+
+
+organism_groups:
+  - human
+  - animal
+  - unknown
+
+
+screening_status:
+  - candidate
+  - included
+  - excluded
+  - uncertain
+  - duplicate
+
+
+qc_status:
+  - not_checked
+  - in_progress
+  - passed
+  - passed_with_warnings
+  - failed
+  - needs_manual_review
+
+
+access_levels:
+  - open
+  - controlled
+  - restricted
+  - metadata_only
+  - unknown
+
+
+exclusion_reasons:
+  - wrong_disease
+  - not_single_cell
+  - bulk_data
+  - duplicate
+  - insufficient_metadata
+  - not_biological_dataset
+  - technical_dataset
+  - irrelevant_study
+  - accession_invalid
+  - other
