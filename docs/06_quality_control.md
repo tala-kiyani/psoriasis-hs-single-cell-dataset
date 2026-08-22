@@ -205,7 +205,7 @@ inclusion_status
 curation_status
 ```
 
-12. Data Availability QC
+# 12. Data Availability QC
 
 The following should be checked:
 
