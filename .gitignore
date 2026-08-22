@@ -19,3 +19,58 @@ __pycache__/
 
 data/downloaded/
 data/raw_files/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large biological data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.cram
+*.bcl
+
+# Large expression matrices
+*.h5
+*.h5ad
+*.loom
+*.mtx
+*.mtx.gz
+
+# Potentially sensitive clinical/genomic data
+*.vcf
+*.vcf.gz
+
+# Local secrets
+.env
+*.key
+*.pem
+
+# Local analysis outputs
+results/
+tmp/
+scratch/
