@@ -204,6 +204,7 @@ single_cell_type
 inclusion_status
 curation_status
 ```
+---
 
 # 12. Data Availability QC
 
@@ -217,34 +218,38 @@ The following should be checked:
 
 Data availability should be recorded even when data cannot be downloaded directly.
 
-13. Cross-Repository QC
+---
+
+# 13. Cross-Repository QC
 
 Cross-repository identifiers should be checked when available.
 
 Examples:
 
-GEO ↔ SRA
-GEO ↔ BioProject
-SRA ↔ BioProject
-BioProject ↔ BioSample
-Repository ↔ Publication
+- GEO ↔ SRA
+- GEO ↔ BioProject
+- SRA ↔ BioProject
+- BioProject ↔ BioSample
+- Repository ↔ Publication
 
 Conflicting identifiers should be flagged for review.
 
-14. Duplicate QC
+---
+
+# 14. Duplicate QC
 
 Each candidate should be evaluated for duplication.
 
 Potential duplicate evidence includes:
 
-Same accession
-Same BioProject
-Same BioSample
-Same DOI
-Same PMID
-Same publication
-Same sample identifiers
-Explicit repository cross-reference
+- Same accession
+- Same BioProject
+- Same BioSample
+- Same DOI
+- Same PMID
+- Same publication
+- Same sample identifiers
+- Explicit repository cross-reference
 
 The deduplication strategy is defined in:
 
